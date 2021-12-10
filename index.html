@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Ethan Maynes [[ Art and Model Kit webpage ]]
+    Time of presentation - Monday 10:30-12:30
+    Everything is due Thursday 12/16/2021
+    Center Text Web Page: https://www.computerhope.com/issues/ch001474.htm
+    Pre-Formatted Text: https://www.w3schools.com/html/html_paragraphs.asp
+    Center Image: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center
+    Slideshow credit: https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+-->
+
+<head>
+  <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+        <title>Ethan's Digital Art and Model Kit Display</title>
+</head>
+<style>
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ff0000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+
+<body style="background-color:rgb(226, 65, 1);"></body>>
+  
+<!--
+  Introduction
+-->
+  <h1 style="text-align:center">Ethan's Digital Art and Model Kit Portfolio</h1>
+  <p style="text-align:center">Email: ethanmaynes97@gmail.com</p>
+  <pre style="text-align:center">Hi there! My name is Ethan Maynes and I am an amateur digital artist and model kit builder 
+    I draw in the program Clip Studio Paint and mostly build 1/144 scale gunpla and airplane kits.</pre>
+  <br />
+  <h1 style="text-align:center">Model Kits I've built this year</h1>
+  <p style="text-align:center">HGUC (High Grade Universal Century) Desert Zaku II F2</p>
+  <img src="desertZaku.jpg" alt="zaku" class="center" style="width:300px;">
+  <p style="text-align:center">Animation Model</p>
+  <img src="zaku2.jpg" alt="zaku2" class="center" style="width:300px">
+  <p style="text-align:center">Base Kit</p>
+  <img src="dzaku1.jpeg" alt="d" class="center" style="width:300px">
+  <img src="dzaku2.jpeg" alt="d2" class="center" style="width:300px">
+  <p style="text-align:center">Results</p>
+  <pre style="text-align:center">This was my first real custom build ever and it was a very daunting task.
+  I had to cut and mod some parts from a really old kit and use 2 part putty to make sure everything looked smooth.
+In the end I think I did pretty well on this one and while there are some issues like not sanding some pieces enough
+it still looks pretty good.</pre>
+
+<p style="text-align:center">HGUC RGM-89J Jegan A-Type</p>
+<img src="gm.jpg" alt="jegan" class="center" style="width:300px">
+<p style="text-align:center">Animation Model</p>
+<img src="unpainted.jpg" alt="base" class="center" style="width:300px">
+<p style="text-align:center">Base Kit</p>
+<img src="jegan.jpeg" alt="atype" class="center" style="width:300px">
+<p style="text-align:center">Results</p>
+<pre style="text-align:center">A recent build I did. I did a kitbash of old parts from another kit to give it 
+a proper backskirt and frontskirts for added armor. I also did some painting to make it match the animation model
+of the actual Jegan from the Gundam F91 movie</pre>
+
+<p style="text-align:center">Revell 1/144 Panavia Tornado</p>
+<img src="tornado.jpg" alt="plane" class="center" style="width:300px">
+<p style="text-align:center">Base Kit</p>
+<img src="panavia1.jpeg" alt="cyclone1" class="center" style="width:300px">
+<img src="panavia2.jpeg" alt="cyclone2" class="center" style="width:300px">
+<p style="text-align:center">Results</p>
+<pre style="text-align:center">A modified 1/144 scale kit of the real world Panavia Tornado fighter bomber used by NATO
+The main modification was making it a twin tail from a single using a combination of plastic cement to weld
+the tails to the plastic and two part epoxy putty to "blend" the base of the tailfins to the main fuselage</pre>
+
+<p style="text-align:center">HGUC Geara Zulu/Rozen Zulu (WIP)</p>
+<img src="zulu.JPG" alt="129" class="center" style="width:300px">
+<p style="text-align:center">Geara Zulu Base Kit</p>
+<img src="rozen.JPG" alt="132" class="center" style="width:300px">
+<p style="text-align:center">Rozen Zulu Base Kit</p> 
+<img src="mitternacht.jpeg" alt="waltz" class="center" style="width:300px">
+<p style="text-align:center">Results</p>
+<pre style="text-align:center">This is a current work in progress build I'm currently working on. 
+Basically I'm combining parts from two different kits and hand painting them to the best of my ability.
+I'm pretty satsified with how it looks so far. </pre>
+<br /><br />
+
+<h1 style="text-align:center">Art Gallery</h1>
+<pre style="text-align:center">Some art I've done in the past. I mainly am a digital illustation hobbyist so
+I'm not exactly the greatest but I did my best. This gallery will also feature Work-in-Progress pieces that I never
+got around to finishing but desire to finish one day. I mainly draw aviation, mecha, and anime stuff and these were
+all done in the Clip Studio Paint program with some enhancements from Photoshop CS6.</pre>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 11</div>
+    <img src="j10.jfif" style="width:100%">
+    <div class="text">J-10V -Three Strikes-</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="epic.jfif" style="width:100%">
+    <div class="text">XT-07 on Sub-Flight System</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="fa22.jfif" style="width:100%">
+    <div class="text">F/A-22B Spiral 5</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="goog.jfif" style="width:100%">
+    <div class="text">Amber Gelgoog</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="dom.jfif" style="width:100%">
+    <div class="text">XT-09G</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 11</div>
+    <img src="PWMK1.jfif" style="width:100%">
+    <div class="text">Project Wingman Mk.II</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 11</div>
+    <img src="rebawoo.PNG" style="width:100%">
+    <div class="text";>AMX-107JNR Gunnhildr Rebawoo Custom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="doga.PNG" style="width:100%">
+    <div class="text">AMS-119S Geara Doga Lawrence Custom</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="krokodil.PNG" style="width:100%">
+    <div class="text">Soviet Gunship</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="corefight.PNG" style="width:100%">
+    <div class="text">FF-X7A Fighter</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="valk.PNG" style="width:100%">
+    <div class="text">SV-33 Variable Fighter</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+</div>
+
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+  
+
+</body>
